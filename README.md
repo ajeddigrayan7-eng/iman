@@ -50,7 +50,7 @@
 
         function initGame() {
             player = { name: "Imane 👑", body: Array(20).fill({x: MAP_SIZE/2, y: MAP_SIZE/2}), isPlayer: true };
-            const botNames = ["Rayan 🤖", "Ajeddig 🌵", "Bot_1", "Bot_2"];
+            const botNames = ["Rayan 🤖", "Ajeddig 🌵", "rayan", "anaaaaaaaaaa"];
             bots = botNames.map(name => ({
                 name, body: Array(15).fill({x: Math.random()*MAP_SIZE, y: Math.random()*MAP_SIZE}),
                 angle: Math.random()*6, speed: 3.5, color: "#555"
