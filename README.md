@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Imane Slither Boss ❤️</title>
+    <title>Imane world❤️</title>
     <style>
         body { margin: 0; background: #000; overflow: hidden; font-family: 'Arial', sans-serif; touch-action: none; }
         canvas { display: block; }
@@ -23,12 +23,12 @@
 
     <div id="start-overlay" class="overlay">
         <h1 style="color: #ff0055; font-size: 2.5rem;">IMANE WORLD 👑</h1>
-        <p>Ghalbi Rayan 🤖 ou Ajeddig 🌵!<br>St3mly l-joystick l-t-tehmi</p>
+        <p>Ghalbini a mchichti  🌵!<br>St3mly l-joystick l-t-tehmi</p>
         <button class="btn" onclick="startGame()">START 😍</button>
     </div>
 
     <div id="game-over" class="overlay" style="display:none;">
-        <h1 style="color: #ff0055;">GAME OVER 😂</h1>
+        <h1 style="color: #ff0055;">GAME OVER awdi yawdi😂</h1>
         <button class="btn" onclick="location.reload()">RE-START</button>
     </div>
 
@@ -56,7 +56,7 @@
                 angle: Math.random()*6, speed: 3.5, color: "#555"
             }));
             foods = Array(60).fill(0).map(() => ({x: Math.random()*MAP_SIZE, y: Math.random()*MAP_SIZE}));
-            const phrases = ["IMANE ❤️", "KAN BGHIK", "MOUSIBA", "QUEEN"];
+            const phrases = ["IMANE ", "la tohibinani", "mchichti", "QUEEN"];
             bgTexts = Array(40).fill(0).map(() => ({
                 x: Math.random()*MAP_SIZE, y: Math.random()*MAP_SIZE,
                 txt: phrases[Math.floor(Math.random()*phrases.length)], size: 60
