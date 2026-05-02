@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Imane World  ❤️</title>
+    <title>Imane World Ultra ❤️</title>
     <style>
         body { margin: 0; background: #000; overflow: hidden; font-family: 'Arial', sans-serif; touch-action: none; }
         canvas { display: block; }
@@ -75,7 +75,7 @@
             player = { name: "Imane 👑", body: [], color: "#ff0055", isPlayer: true };
             for(let i=0; i<20; i++) player.body.push({x: MAP_SIZE/2, y: MAP_SIZE/2});
 
-            const names = ["Rayan 🤖", "Ajeddig 🌵", "rayan", "rayan", "anaaaaaaa"];
+            const names = ["Rayan 🤖", "Ajeddig 🌵", "rayan", "rayan_2", "anaaaaaaaa"];
             bots = names.map(name => {
                 let bx = Math.random()*MAP_SIZE, by = Math.random()*MAP_SIZE;
                 let bBody = []; for(let i=0; i<15; i++) bBody.push({x: bx, y: by});
@@ -85,7 +85,7 @@
             foods = []; for(let i=0; i<100; i++) foods.push({x: Math.random()*MAP_SIZE, y: Math.random()*MAP_SIZE});
 
             // BACKGROUND TEXTS - TRÈS VISIBLES
-            const phrases = ["IMANE ❤️", "la tohibini", "Mchichti", "QUEEN"];
+            const phrases = ["IMANE ❤️", "la tohibini", "mchichti", "QUEEN"];
             bgTexts = [];
             for(let i=0; i<60; i++) {
                 bgTexts.push({
